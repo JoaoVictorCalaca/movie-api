@@ -17,7 +17,7 @@ function Banner() {
     }, [])
 
     return (
-        <div  className="h-full w-full bg-gradient-to-t px-4 relative">
+        <div  className="rounded-b-2xl relative">
             <Carrousel movies={movies}/>
         </div>
     )

@@ -6,12 +6,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-around gap-24 min-h-screen flex-col bg-gradient-to-b from-slate-950 to-blue-900 pt-20">
-        <header className="w-full flex justify-between items-center p-6 bg-slate-950 fixed top-0 z-10">
-          <h1 className="text-white font-bold text-xl select-none">Movie <span className="text-cyan-400 font-bold text-xl">Discover</span></h1>
+    <main className="flex justify-around gap-24 min-h-screen flex-col bg-gradient-to-b from-slate-950 to-blue-950 pt-24">
+        <header className="w-full flex justify-around items-center gap-4 p-6 bg-slate-950 fixed top-0 z-10">
+          <h1 className="text-white font-bold text-lg select-none">Movie <span className="text-cyan-400 font-bold text-lg">Discover</span></h1>
 
           <div className="flex gap-4">
-            <Link className="text-white no-underline text-sm md:text-lg" href='#popular'>Popular now</Link>
+            <Link className="text-white no-underline text-sm md:text-lg" href='#popular'>Trending</Link>
             <Link className="text-white no-underline text-sm md:text-lg" href='#about'>About</Link>
           </div>
 

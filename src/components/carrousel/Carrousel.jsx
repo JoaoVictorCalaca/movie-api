@@ -8,7 +8,7 @@ function Carrousel({ movies }) {
             {movies.map((movie) => (
                 <CCarouselItem  key={movie.id}>
                     {movie.poster_path && (
-                        <CImage className='rounded-lg w-full' src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} alt={movie.title} />
+                        <CImage className='rounded-b-lg w-full' src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} alt={movie.title} />
                     )}
 
                     <CCarouselCaption className='flex flex-col gap-4'>
