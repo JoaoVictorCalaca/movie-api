@@ -38,7 +38,7 @@ function Search() {
             <Modal style={{overlay: {backgroundColor: 'rgba(0, 0, 0, 0.75)'}}} isOpen={modalIsOpen} onRequestClose={closeModal} className='flex flex-col gap-3 justify-center bg-blue-950 w-full sm:w-1/2 p-4 rounded-b-lg absolute right-0 top-28 sm:top-20 md:top-20'>
                 <div className='flex justify-center w-full bg-blue-900 rounded-lg p-3 gap-4'>
                     <FaSearch size={24} color='#ccc' />
-                    <input value={query} onChange={(e)=> {setQuery(e.target.value)}} className='w-full bg-transparent focus:outline-none text-white font-bold' type="text" placeholder='Busca' />
+                    <input value={query} onChange={(e)=> {setQuery(e.target.value)}} className='w-full bg-transparent focus:outline-none text-white font-bold' type="text" placeholder='Search' />
                     <button onClick={()=>{setQuery('')}}> <IoIosCloseCircle size={24} color='#ccc'/> </button>
                 </div>
 
